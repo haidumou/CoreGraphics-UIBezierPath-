@@ -1,0 +1,33 @@
+//
+//  Draw_pch.pch
+//  Draw
+//
+//  Created by bfme on 2017/3/16.
+//  Copyright © 2017年 BFMe. All rights reserved.
+//
+
+#ifndef Draw_pch_pch
+#define Draw_pch_pch
+
+#define  kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define  kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define X(v)                    (v).frame.origin.x
+#define Y(v)                    (v).frame.origin.y
+#define WIDTH(v)                (v).frame.size.width
+#define HEIGHT(v)               (v).frame.size.height
+
+#define MinX(v)                 CGRectGetMinX((v).frame)
+#define MinY(v)                 CGRectGetMinY((v).frame)
+
+#define MidX(v)                 CGRectGetMidX((v).frame)
+#define MidY(v)                 CGRectGetMidY((v).frame)
+
+#define MaxX(v)                 CGRectGetMaxX((v).frame)
+#define MaxY(v)                 CGRectGetMaxY((v).frame)
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Draw_pch_pch */
